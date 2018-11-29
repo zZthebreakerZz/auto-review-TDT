@@ -2,4 +2,4 @@
 
 How to use
 
-Installing selenium module the you can run
+Installing selenium module then you can run
