@@ -44,7 +44,7 @@ class SurveyBotTDT:
                     print("Cậu chưa đánh giá giảng viên " + elem.text)
                 num += 1
         except Exception:
-            mtp = input("Check xong! Cậu có muốn tiếp tục đánh giá (nhấn Y để tiếp tục): ")
+            mtp = input("Check xong! Cậu có muốn tiếp tục đánh giá (nhấn Y + Enter để tiếp tục): ")
             if mtp not in ['y', 'Y']:
                 raise NameError()
         return arr
