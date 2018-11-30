@@ -6,6 +6,8 @@ from selenium.webdriver.common.keys import Keys
 class SurveyBotTDT:
 
     def setUp(self):
+        print("*\nLưu ý: Chương trình chỉ tương tác trên đây đừng đụng gì đến trình duyệt cậu nhé :D")
+        time.sleep(3)
         self.driver = webdriver.Chrome()
         url = "http://teaching-quality-survey.tdt.edu.vn/stdlogin.aspx?ReturnUrl=http%3a%2f%2fteaching-quality-survey.tdt.edu.vn%3a80%2fchoosesurvey.aspx"
         self.driver.get(url)
